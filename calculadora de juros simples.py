@@ -1,3 +1,4 @@
+
 # Apresentação da calculadora
 
 # multiplicação
@@ -12,8 +13,8 @@ n3 = float(input('informe o prazo '))
 
 #processamento
 
-q = n1*n2*n3
-total= q//100
+q = (n1*n2*n3) / 100
+
 
 #saida
-print(f' o valor do juros é de -- {total} --')
+print(f' o valor do juros é de -- {q} --')
